@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(Pngtre.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    font-size: 27px;
+    padding: 2rem;
+    color: rgb(68, 68, 68);
+    height: 100vh;
+
+}
+
+.container{
+    display: flex;
+    width: 75%;
+    height: 70vh;
+    background-color: antiquewhite;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 25px;
+    box-shadow: 0 0 10px black;
+    
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.message{
+    display: flex;
+    display: none;
+}
+
+
+
+h1,h2{
+  text-align: center;
+}
+
+span{
+    color: rgb(246, 24, 24);
+}
+
+
+button{
+    width: 30%;
+    height: 5vh;
+    background-color: rgb(246, 24, 24);
+    color: antiquewhite;
+    border: none;
+    border-radius: 10PX;
+    margin-top: 2rem;
+    animation: beat 1s ease-in-out infinite;
+}
+
+@keyframes beat {
+    0%{
+        scale:1;
+    }
+    50%{
+        scale:1.5;
+    }
+    100%{
+        scale:1;
+    }
+}
